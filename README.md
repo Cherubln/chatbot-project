@@ -16,25 +16,25 @@ This project showcases data handling, API communication, and backend functionali
 
 <hr>
 
-#### Approach
+### Approach
 
 - This solution is implemented using Django as the backend framework, with the following core functionalities:
 
-#### 1. Data Retrieval:
+**1. Data Retrieval:**
 
 - A `get_google_sheet_data` function retrieves data from a Google Sheet using the Google Sheets API.
   Error handling is incorporated to manage any potential issues, including authentication, connectivity, and API errors.
 
-#### 2. Error Handling & Logging:
+**2. Error Handling & Logging:**
 
 - Comprehensive error handling in both the Google Sheets data retrieval and the API submission functions.
   Logging of each error type to ensure any issues can be quickly diagnosed and resolved.
 
-#### 3. Storage & Retrieval:
+**3. Storage & Retrieval:**
 
 - Data is stored in a database with the UserProfile model, making it easy to access historical data for any user.
 
-### Folder Structure
+## Folder Structure
 
 ```
 project_root/
@@ -57,16 +57,16 @@ project_root/
 └── README.md                   # Project Description
 ```
 
-### Setup Instructions
+## Setup Instructions
 
-#### Prerequisites
+### Prerequisites
 
 - Python 3.8 or higher
 - Django
 - Google Sheets API and Google Cloud Service Account
 - Required Python packages are listed in requirements.txt
 
-#### Steps
+### Steps
 
 **1. Clone the Repository:**
 
