@@ -24,6 +24,15 @@ This project showcases data handling, API communication, and backend functionali
 
 - A `get_google_sheet_data` function retrieves data from a Google Sheet using the Google Sheets API.
   Error handling is incorporated to manage any potential issues, including authentication, connectivity, and API errors.
+- Google sheet will look like:
+
+  
+| name     | age | height | weight | gender | smoking-status | exercise-frequency | diet-quality | medical-history       | timestamp           |
+|----------|-----|--------|--------|--------|----------------|--------------------|--------------|-----------------------|---------------------|
+| John Doe | 28  | 175    | 70     | Male   | Non-Smoker     | 3                  | Good         | None                  | 2024-10-31 17:30:08 |
+| Jane Roe | 34  | 160    | 60     | Female | Smoker         | 0                  | Average      | Asthma                | 2024-10-31 17:30:08 |
+
+
 
 **2. Error Handling & Logging:**
 
