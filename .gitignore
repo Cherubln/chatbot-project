@@ -1,0 +1,74 @@
+# Python-related files
+*.pyc
+__pycache__/
+*.pyo
+*.pyd
+
+# Virtual Environment
+venv/
+env/
+
+# Django-specific
+*.sqlite3
+db.sqlite3
+
+# Google Cloud credentials and other sensitive files
+path/to/your/service-account.json
+*.pem
+*.key
+
+# Django secret key and sensitive settings
+*.env
+.env.*
+
+# VS Code and other IDE/editor specific
+.vscode/
+.idea/
+*.sublime-workspace
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Log files
+*.log
+
+# Compiled code (Cython)
+*.so
+
+# Backup files
+*.bak
+
+# macOS-specific files
+.DS_Store
+
+# Windows-specific files
+Thumbs.db
+
+# Coverage reports
+htmlcov/
+.coverage
+.tox/
+.nox/
+.cache/
+coverage.xml
+*.cover
+.hypothesis/
+
+# Pytest and unit test caches
+.pytest_cache/
+.junit/
+.test-report/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# Build and distribution
+build/
+dist/
+*.egg-info/
+*.egg
+
+# Static and media files generated locally (optional)
+staticfiles/
+media/
