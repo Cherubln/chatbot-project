@@ -71,8 +71,8 @@ project_root/
 **1. Clone the Repository:**
 
 ```bash
-git clone https://github.com/yourusername/yourproject.git
-cd yourproject
+git clone https://github.com/Cherubln/chatbot-project.git
+cd chatbot-project
 ```
 
 **2. Set Up a Google Cloud Service Account:**
@@ -86,7 +86,7 @@ Go to the Google Cloud Console.
 
 **3. Environment Variables:**
 
-- In `myproject/settings.py`, set up environment variables for sensitive data, including the Google Sheet ID and path to the service account JSON file.
+- In `chatbot-project/settings.py`, set up environment variables for sensitive data, including the Google Sheet ID and path to the service account JSON file.
 
 **4. Install Required Packages:**
 
@@ -105,7 +105,6 @@ python manage.py migrate
 **1. Start the Django Development Server:**
 
 ```bash
-Copy code
 python manage.py runserver
 ```
 
