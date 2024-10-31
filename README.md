@@ -27,12 +27,12 @@ This project showcases data handling, API communication, and backend functionali
 
 **2. Error Handling & Logging:**
 
-- Comprehensive error handling in both the Google Sheets data retrieval and the API submission functions.
+- Comprehensive error handling in both the Google Sheets data retrieval function.
   Logging of each error type to ensure any issues can be quickly diagnosed and resolved.
 
 **3. Storage & Retrieval:**
 
-- Data is stored in a database with the UserProfile model, making it easy to access historical data for any user.
+- Data is stored in a database with the `UserData` model, making it easy to access historical data for any user.
 
 ## Folder Structure
 
@@ -86,7 +86,7 @@ Go to the Google Cloud Console.
 
 **3. Environment Variables:**
 
-- In `chatbot-project/settings.py`, set up environment variables for sensitive data, including the Google Sheet ID and path to the service account JSON file.
+- In `chatbot-project/settings.py`, set up environment variables for sensitive data, like the Google Sheet ID, find env example in `env.example` file.
 
 **4. Install Required Packages:**
 
