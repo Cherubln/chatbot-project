@@ -3,6 +3,9 @@
 __pycache__/
 *.pyo
 *.pyd
+template.md
+# Ignore configuration files with sensitive data
+config/service-account.json
 
 # Virtual Environment
 venv/
